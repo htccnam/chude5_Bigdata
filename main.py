@@ -14,7 +14,8 @@ spark = SparkSession.builder \
 # Tắt bớt log INFO dài dòng của Spark trên terminal để dễ nhìn kết quả
 spark.sparkContext.setLogLevel("ERROR")
 
-data_path = "E:/Big Data Final Course/05_archive/"
+data_path = "D:/All Projects/Spark/"
+streaming_path = "E:/Big Data/streaming_input/"
 
 print(" --- ĐANG ĐỌC DỮ LIỆU ---")
 #2. Đọc các file CSV vào DataFrame 
